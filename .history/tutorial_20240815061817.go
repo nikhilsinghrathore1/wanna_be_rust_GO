@@ -100,6 +100,5 @@ func main() {
 	router.POST("/create", create_book)
 	router.GET("/getBook/:id", get_book_by_id)
 	router.PATCH("/checkout", checkout_book)
-	router.PATCH("/return", return_book)
 	router.Run("localhost:3000")
 }
